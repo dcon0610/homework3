@@ -19,7 +19,7 @@ var passwordCriteriaConfirmed = [passwordCriteria.characternumber(), passwordCri
 if(passwordCriteria.characternumber<128 && passwordCriteria.characternumber>8) {
 var passwordBoolean=true
 
-}
+} 
 else {
   alert("please enter the correct number of values")
   return
@@ -61,7 +61,7 @@ if( characterBoolean===true  && passwordBoolean===true) {
 
 }
 
-//initialise the password as empty
+//initialise the password as an empty string
 password=""
 
 //loop over the length of the password, find a random number, convert it to a character from the passwordSelectionArray string using "charAt"
